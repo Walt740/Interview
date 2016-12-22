@@ -1,0 +1,26 @@
+#滤除code blocks ide工程文件
+
+
+
+*.depend
+*.layout
+*.cscope_file_list
+#滤除文件夹和内部文件
+obj
+bin
+
+
+#滤除vs2015 ide工程文件
+
+.vs
+Debug
+doxygen
+Release
+ipch
+
+
+*VC.VC.opendb
+*.sln
+*.vcxproj.filters
+*.VC.db
+*.vcxproj.user
