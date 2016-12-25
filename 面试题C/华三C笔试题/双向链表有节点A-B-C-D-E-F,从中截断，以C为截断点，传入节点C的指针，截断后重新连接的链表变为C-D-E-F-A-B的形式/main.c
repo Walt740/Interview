@@ -21,7 +21,7 @@ struct node
 
 }NODE;
 
-int 
+int
 main()
 {
     NODE *head = (NODE*)malloc(sizeof(NODE)); //为头指针申请动态内存
@@ -48,7 +48,7 @@ main()
         q = q->next;
     }
 	printf("\n");
-	
+
 	//找到C(3)结点，并把指针放到tmp head，同时把p，q指向链表尾
 	p = head;
 	q = head;
